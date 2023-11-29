@@ -1,0 +1,19 @@
+@import url(./reset/);
+@import url(./header/);
+@import url(./body/);
+@import url(./accueil/);
+@import url(./html/);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "JuliusSansOne";   
+    src: url("../fonts/JuliusSansOne.ttf") format("truetype");
+  }
+
+@font-face {
+font-family: "Archivo";   
+src: url("../fonts/Archivo.ttf") format("truetype");
+}

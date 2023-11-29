@@ -1,0 +1,17 @@
+.accueil-metier {
+    display: block;
+    color: #832F25;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+.page-accueil .image-accueil img {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+
+@media screen and (max-width: 780px) {
+
+.page-accueil .image-accueil img {
+    clip-path: none;
+}
+}
